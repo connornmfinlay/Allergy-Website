@@ -1,0 +1,33 @@
+* {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+nav {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    background-color: #5ebd5e;
+    color: #fff;
+}

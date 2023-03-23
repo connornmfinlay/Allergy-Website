@@ -1,0 +1,155 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 10px;
+  border: 1px;
+  margin: 5px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.hero-section {
+  background-image: url('hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-section h1 {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #000
+}
+
+.hero-section p {
+  font-size: 24px;
+  margin-bottom: 0;
+  color: #000
+}
+
+.footer {
+  background-color: #4bb57b;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+img.circle {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  width: 25%;
+  min-width: 20%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+img.Logo {
+  border-radius: 12%;
+  margin-top: 30px;
+}
+
+.abt-section {
+  margin: 20px;
+}
+
+
+#meal-suggestions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.meal {
+  width: 200px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.meal:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.meal img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.meal h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+form input,
+form button {
+  font-size: 18px;
+  padding: 8px;
+}
+
+form input {
+  flex: 1;
+  min-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #999;
+}
+
+form button {
+  background-color: #5ebd5e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #5ebd5e;
+}
+
+form button:active {
+  background-color: #5ebd5e;
+}

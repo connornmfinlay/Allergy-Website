@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./nav.css">
+  <title>Allergy-based Meal Suggestions</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="receipe.html">Recipe Search</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Allergy-based Meal Suggestions</h1>
+  <form id="allergy-form">
+    <label for="allergies">Enter your allergies (comma-separated):</label>
+    <input type="text" id="allergies" name="allergies" placeholder="e.g. peanuts, milk">
+    <button type="submit">Get Meal Suggestions</button>
+  </form>
+  <div id="meal-suggestions-container"></div>
+  <script src="receipe.js"></script>
+</body>
+
+</html>
