@@ -149,7 +149,7 @@ form input:focus {
 }
 
 form button {
-  background-color: #5ebd5e;
+  background-color: #4bb57b;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -158,11 +158,11 @@ form button {
 }
 
 form button:hover {
-  background-color: #5ebd5e;
+  background-color: #4bb57b;
 }
 
 form button:active {
-  background-color: #5ebd5e;
+  background-color: #4bb57b;
 }
 .form-group {
   margin-bottom: 20px;
@@ -181,7 +181,7 @@ textarea.form-control {
   height: 150px;
 }
 .contact-button {
-  background-color: #5ebd5e;
+  background-color: #4bb57b;
   color: #fff;
   border: none;
   padding: 2px 24px;
