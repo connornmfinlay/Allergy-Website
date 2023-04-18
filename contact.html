@@ -16,17 +16,33 @@
         <li><a href="home.html">Home</a></li>
         <li><a href="aboutus.html">About Us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="receipe.html">Recipe Search</a></li>
+        <li><a href="recipe.html">Recipe Search</a></li>
       </ul>
     </nav>
     <section class="cta-section">
       <div class="container">
-        <h2>Ready to Simplify Your Life?</h2>
-        <p>Sign up for our newsletter and get exclusive access to our latest recipes, tips, and advice.</p>
+        <h1>Contact Us</h1>
+        <p>Send us feedback! From bugs to new recipe ideas, any form of contact is highly appreciated!</p>
         <form>
-          <input type="email" placeholder="Enter your email">
-          <button>Sign Up</button>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Feedback"></textarea>
+          </div>
+          <button class="contact-button" onclick="playSound()">Submit</button>
         </form>
       </div>
     </section>
+    <script src="contact.js"></script>
+    <footer class="footer">
+      <p>&copy; Allergies Simplified</p>
+  </footer>
 </body>
+</html>

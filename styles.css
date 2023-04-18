@@ -11,29 +11,26 @@ p {
   display: inline-block;
   font-size: 15px;
 }
-
-.hero-section {
-  background-image: url('hero-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+/*Home Page*/
+.home-section {
   padding: 100px 0;
   text-align: center;
   color: #fff;
 }
 
-.hero-section h1 {
+.home-section h1 {
   font-size: 60px;
   margin-top: 0;
   margin-bottom: 20px;
-  color: #000
+  color: #4bb57b
 }
 
-.hero-section p {
+.home-section p {
   font-size: 24px;
   margin-bottom: 0;
   color: #000
 }
-
+/*Footer*/
 .footer {
   background-color: #4bb57b;
   color: #fff;
@@ -41,10 +38,11 @@ p {
   padding: 20px 0;
   position: fixed;
   bottom: 0;
+  height: 30px;
   width: 100%;
 }
-
-img.circle {
+/*Images*/
+img.abt-image {
   display: block;
   margin: 0 auto;
   max-width: 50%;
@@ -59,12 +57,25 @@ img.Logo {
   border-radius: 12%;
   margin-top: 30px;
 }
-
+/*About Us Page*/
 .abt-section {
   margin: 20px;
 }
-
-
+.abt-section h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #4bb57b
+}
+/*Recipe Page */
+.recipe h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #4bb57b
+}
 #meal-suggestions-container {
   display: flex;
   flex-wrap: wrap;
@@ -98,17 +109,18 @@ img.Logo {
   margin: 0;
   font-size: 18px;
 }
+/*Contact Us Page*/
+.cta-section h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #4bb57b
+}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 32px;
-  margin-bottom: 16px;
 }
 
 form {
@@ -119,7 +131,6 @@ form {
   margin-bottom: 32px;
 }
 
-form input,
 form button {
   font-size: 18px;
   padding: 8px;
@@ -152,4 +163,31 @@ form button:hover {
 
 form button:active {
   background-color: #5ebd5e;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+.contact-button {
+  background-color: #5ebd5e;
+  color: #fff;
+  border: none;
+  padding: 2px 24px;
+  margin:30px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  height:50px;
 }
