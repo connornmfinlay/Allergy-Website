@@ -71,3 +71,6 @@ function renderMealSuggestions(meals) {
         container.appendChild(mealDiv);
     });
 }
+function playSound() {
+    new Audio("./click.mp3").play();
+}

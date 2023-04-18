@@ -22,12 +22,10 @@
   </header>
   <h1>Allergy-based Meal Suggestions</h1>
   <form id="allergy-form">
-    <label for="allergies">Enter your allergies (comma-separated):</label>
+    <label for="allergies">Enter your allergies:</label>
     <input type="text" id="allergies" name="allergies" placeholder="e.g. peanuts, milk">
-    <button type="submit">Get Meal Suggestions</button>
+    <button type="submit" onclick="playSound()">Get Meal Suggestions</button>
   </form>
   <div id="meal-suggestions-container"></div>
   <script src="receipe.js"></script>
 </body>
-
-</html>
