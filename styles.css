@@ -191,3 +191,32 @@ textarea.form-control {
   cursor: pointer;
   height:50px;
 }
+/*Alternatives Page*/
+.alt h1{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #4bb57b
+}
+
+.alt table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.alt th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.alt th {
+  background-color: #4bb57b;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
