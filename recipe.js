@@ -20,7 +20,7 @@ document.getElementById("allergy-form").addEventListener("submit", async (event)
 });
 
 // An asynchronous function that returns a specified number of random meals
-async function getRandomMeals(numberOfMeals = 5) {
+async function getRandomMeals(numberOfMeals = 20) {
     // Define the API key and endpoint
     const apiKey = "1"; // Use the test API key '1' for development
     const apiEndpoint = "https://www.themealdb.com/api/json/v1/1/random.php";
