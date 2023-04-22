@@ -30,7 +30,7 @@ async function getRandomMeals(numberOfMeals = 20) {
     // Loop for the specified number of meals
     for (let i = 0; i < numberOfMeals; i++) {
         // Make an API request to the endpoint with the API key as a parameter
-        const response = await fetch(`${apiEndpoint}?apiKey=${apiKey}`);
+        const response = await fetch(`${apiEndpoint}?apiKey=${apiKey}`); // https://builtin.com/software-engineering-perspectives/javascript-api-call
 
         // Check if the response was successful
         if (!response.ok) {
@@ -81,7 +81,7 @@ async function getMealSuggestions(allergies) {
 // Define a function called "renderMealSuggestions" that takes an array of filtered meal objects as an argument
 function renderMealSuggestions(filteredMeals) {
     // Find the container element on the page where meal suggestions will be displayed
-    const container = document.getElementById("meal-suggestions-container");
+    const container = document.getElementById("meal-suggestions-container");  // https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
     
     // Clear any existing content inside the container element
     container.innerHTML = "";
