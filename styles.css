@@ -158,7 +158,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #4bb57b;
+  background-color: #ccc;
 }
 
 form button:active {
