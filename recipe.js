@@ -78,8 +78,8 @@ async function getMealSuggestions(allergies) {
     return filteredMeals;
 }
 
-// Define a function called "renderMealSuggestions" that takes an array of meal objects as an argument
-function renderMealSuggestions(meals) {
+// Define a function called "renderMealSuggestions" that takes an array of filtered meal objects as an argument
+function renderMealSuggestions(filteredMeals) {
     // Find the container element on the page where meal suggestions will be displayed
     const container = document.getElementById("meal-suggestions-container");
     
@@ -87,7 +87,7 @@ function renderMealSuggestions(meals) {
     container.innerHTML = "";
 
     // Loop through each meal object in the array and create a new HTML element to display it
-    meals.forEach(meal => {
+    filteredMeals.forEach(meal => {
         // Create a new div element to hold the meal information
         const mealDiv = document.createElement("div");
         mealDiv.className = "meal";
